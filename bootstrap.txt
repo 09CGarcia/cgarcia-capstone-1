@@ -1,0 +1,120 @@
+Spacing in Bootstrap
+padding- p
+margin- m
+border- b
+
+can be connected with the following:
+t - for classes that set margin-top or padding-top
+b - for classes that set margin-bottom or padding-bottom
+s - (start) for classes that set margin-left
+e - (end) for classes that set margin-right 
+x - for classes that set both *-left and *-right
+y - for classes that set both *-top and *-bottom
+blank - for classes that set a margin or padding on all 4 sides of the element
+
+sizes:
+0 - for classes that eliminate the margin or padding by setting it to 0
+1 to 5 (1 being the least and 5 being the max)
+auto - for classes that set the margin to auto
+
+(sample: pt-5/ mx-auto/ b-4)
+
+background-color
+bg-(bootstrap color)
+bootstrap color classes:
+>> primary
+>> secondary
+>> info
+>> warning
+>> transparent
+>> white
+>> dark
+>> light
+
+border
+adding border in specific side:
+border-top
+border-bottom
+border-start (left)
+border-end (right)
+
+border for all sides:
+border
+
+removing border in specific side:
+border-top-0
+border-bottom-0
+border-start-0 (left)
+border-end-0 (right)
+
+colored border:
+border-(bootstrap color class)
+
+border-radius:
+rounded = rounded 4 corners
+rounded-top = rounded top corners
+rounded-bottom = rounded bottom corners
+rounded-start = rounded left corners
+rounded-circle = circular
+rounded-pill = pill shaped
+sample: <tag class= "border border-primary rounded">
+	>> meaning: all borders will have primary color with rounded corners
+
+
+font color:
+text-(bootstrap color class)
+sample: <tag class="text-danger">
+
+font weight (fw) and font style (fst):
+fw-bold
+fw-bolder
+fw-normal
+fw-light
+fw-lighter
+fst-italic
+fst-normal
+sample: <tag class="text-danger fw-bold">
+	>>meaning the text will color red in bold
+
+text-alignment:
+text-center
+text-start (left)
+text-end (right)
+
+container and container-fluid:
+container- sets a max-width at each responsive breakpoint
+container-fluid- which is width: 100% at all breakpoints
+	
+screen sizes and breakpoints:
+<576px Extra small
+≥576px Small 
+≥768px	Medium
+≥992px	Large
+≥1200px	X-Large
+≥1400px	XX-Large
+
+sample: <tag class="col-sm-12 col-md-8">
+(remember that each row has 12 maximum columns)
+
+different displays:
+d-flex
+	>>centering element:
+		>> justify-content-center = vertically centered
+		>> align-items-center = horizontally centered
+
+d-inline
+d-block
+d-inline-block
+d-none (will not show)
+
+list / text decoration:
+list-inline = removes bullets in unordered list
+text-decoration-underline = adds underline
+text-decoration-line-through = adds strikethrough
+text-decoration-none = removes underline
+
+fixed position:
+fixed-top
+fixed-bottom
+sticky-top
+(if responsive in other screen sizes: sticky-sm-top)
